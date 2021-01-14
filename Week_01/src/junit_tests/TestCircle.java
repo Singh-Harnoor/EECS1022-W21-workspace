@@ -13,12 +13,12 @@ public class TestCircle {
 	 */
 	@Test
 	public void test1() {
-		assertEquals(314.0, Circle.getArea(10), 0.01);
+		assertEquals(314.0, Circle.getArea(10), 1);
 	}
 	
 	@Test
 	public void test2() {
-		assertEquals(3.14*25.0*25.0, Circle.getArea(25.0), 0.01);
+		assertEquals(3.1415926*25.0*25.0, Circle.getArea(25.0), 1);
 	}
 	
 
