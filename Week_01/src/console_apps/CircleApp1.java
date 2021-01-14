@@ -1,3 +1,4 @@
+package console_apps;
 import java.util.Scanner;
 
 /*

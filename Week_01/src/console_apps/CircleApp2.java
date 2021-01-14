@@ -1,4 +1,7 @@
+package console_apps;
 import java.util.Scanner;
+
+import model.Circle;
 
 /*
  * This is the version two of a console application
