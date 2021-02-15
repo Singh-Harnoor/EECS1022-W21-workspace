@@ -2,34 +2,30 @@ package ForPractise;
 
 import java.util.Scanner;
 
-public class Week_2Practise {
 
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		System.out.println("AGE: ");
-		int age = input.nextInt();
-		
-		if (age >= 0) {
-			System.out.println("Hello, human!");
-				
-		}
-		else {
-			System.out.println("How can someone be of age " + age + " ?" );
-		}
-		
-		System.out.println("Give me a number: ");
-		int number = input.nextInt();
-		
-		if (number <= 0) {
-			System.out.println("Error: number should be a natural negative");
-		}
-		else {
-			number = number * number ;
-			System.out.println( "Sqaure is "+ number);
-		}
-		
-		input.close();
-
-	}
-
+class Solution{
+    public static void main(String []arg){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        int sum = 0;
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            
+            if (0 <= t && t <= 500 &&  0 <= a && b <= 50 && 1 <= n && n <= 15){
+                for(int j = 0; j < n; j++){
+                    sum += a + Math.pow(2, j)* b;
+                    System.out.print(sum + " ");
+                    
+                }
+                System.out.println();
+            }
+             
+            
+            
+            
+        }
+        in.close();
+    }
 }
