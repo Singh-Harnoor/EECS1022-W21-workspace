@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe App - Harnoor Singh (218020206)</string>
+    <string-array name="whoPlays">
+        <item>Player X</item>
+        <item>Player O</item>
+    </string-array>
+</resources>
